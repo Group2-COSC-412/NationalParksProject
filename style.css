@@ -5,7 +5,7 @@
 }
 html{
 
-background-image: url("me.jpg");
+background-image: url("https://s3.amazonaws.com/cosc-412-s3/me.jpg");
 background-size: 100%;
 background-repeat: no-repeat;
 background-position: center; 
