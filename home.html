@@ -1,36 +1,66 @@
 <!doctype html>
 <html>
+
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
 <html lang = "en">
-<head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>US National Parks</title>
-	<link rel="stylesheet" href="style.css">
-</head>
+
+<title>US National Parks</title>
+
+<!--Header-->
+<header>
+<h1> US National and State Park Directory </h1>
+<p>Never Stop Exploring!</p>
+</header>
+<div class="box" style="background-color: white"></div>
+<!--Navigation-->
+<nav>
+		<ul>
+			<li><a href="home.html">Find A Park</a></li>
+			<li><a href="news.asp">Explore</a></li>
+			<li><a href="contact.html">Get Involved</a></li>
+			<li><a href="donations.html">Donations</a></li>
+			<li><a href="violation.html">Violations</a></li>
+			<li><a href="Reveiw.html">Reviews</a></li>
+			<li style="float:right"><a class="Login" href="Logn_in.html">Create Account</a></li>
+		</ul>
+</nav>
+<div>
+		<input type="text" placeholder="Search..">
+</div>
+
+
+<!--Body-->
 <body>
     <div>
-	<h1> Welcome to the US Park Directory! </h1>
 	
-	<ul>
-		<li><a href="home.html">Find A Park</a></li>
-		<li><a href="news.asp">Explore</a></li>
-		<li><a href="contact.html">Get Involved</a></li>
-		<li><a href="donations.html">Donations</a></li>
-		<li><a href="violation.html">Violations</a></li>
-		<li><a href="Reveiw.html">Reviews</a></li>
-		<input type="text" placeholder="Search..">
-		<li style="float:right"><a class="Login" href="Logn_in.html">Login/Create Account</a></li>
-	</ul>
-	<h2>Header H2 Boiiii</h2>
-   </div>
-	<div>
-		<a href = "gameLink">
-		<li style="float:right"> <img src="https://media.giphy.com/media/mOl9OjXWO3ScU/giphy.gif" 
-			alt="Game" style="width:200px;height:200px;border:0;"></li>
-		</a>
-	</div>
+<div class="row">
+	  	<div class="col">
+			<h3>State Park News</h3>
+			<p><img src="https://s3.amazonaws.com/cosc-412-s3/ParkImage_12.jpg" 
+		  	class="img-fluid" alt="Yellow Stone" style="width:50%"></p>
+			<p>Yellow Stone Park has reported a decline in certain species' population.</p>
+			<p><a class="readmore" href="#">Read more..</a></p>
+		</div>
+		<div class="col">
+						<h3>How to Prepare For Your Visit</h3>
+						<p><img src="https://s3.amazonaws.com/cosc-412-s3/ParkImage_1.jpg" 
+						 class="img-fluid" alt="Yellow Stone" style="width:50%"></p>
+						<p>All the hiking and camping essentials you'll need to bring with you to ensure a safe experience.
+						</p>
+						<p><a class="readmore" href="#">Read more..</a></p>
+		 </div>
+		<div class="col">
+						<h3>Play Game</h3> 
+						<p><img src="https://media.giphy.com/media/mOl9OjXWO3ScU/giphy.gif"
+						 class="img-fluid" alt="Game" style="width:50%"></p>
+						<p>Explore the parks in a new way.</p>
+						<p><a class="readmore" href="#">Read more..</a></p>
+		 </div>
+ </div>
 	
-	
+
 
 </body>
 </html>
