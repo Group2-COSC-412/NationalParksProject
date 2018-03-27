@@ -22,8 +22,14 @@ position: center;
 height: 100%;
 }
 
+h3{
+background-color: rgb(6, 193, 250);
+border-radius: 3px;
+margin: 5px;
+}
 header{
-background: rgb(201, 212, 221);
+background: rgb(32, 27, 27);
+color:white;
 padding: 20px;
 border-radius: 3px;
 
