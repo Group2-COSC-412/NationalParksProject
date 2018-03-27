@@ -1,11 +1,17 @@
 /*This ensures that padding and margin are zero at default*/
+
+
+
+/* Home Page Style Sheet*/
+
+
 *{
 	margin: 0px;
 	padding: 0px;
 }
 html{
 
-background-image: url("https://s3.amazonaws.com/cosc-412-s3/ParkImage_10.jpg");
+background-image: url("me.jpg");
 background-size: 100%;
 background-repeat: no-repeat;
 background-position: center; 
@@ -17,12 +23,13 @@ height: 100%
 }
 body{
 text-align:center;
-background: #f6f5f4;
-width: 1200px;
+background: white;
+width: 1000px;
 vertical-align: middle;
 margin: 0 auto;
 padding-top: 20px;
 }
+
 
 /*Menu Styling */
 
@@ -60,24 +67,11 @@ text-decoration: none;
 }
 
 li a:hover{
-background-color: #dddddd;
-color: black;
+background-color: rgb(6, 193, 250);
+color: rgb(14, 13, 13);
 }
 
-.active{
-background-color: #4CAF50;
-color: black;
-}
-
-/* Centered text */
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.float-right{
-    float:right;
-    top: 50%;
-    left: 50%;
+.login{
+background-color: grey;
+color: white;
 }
