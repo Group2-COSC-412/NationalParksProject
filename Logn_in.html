@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 
-/* Create two equal columns that floats next to each other */
+/* Create two equal columns that floats next to each other
 .column {
     float: left;
     width: 50%;
@@ -16,12 +16,12 @@
     
 }
 
-/* Clear floats after the columns */
+/* Clear floats after the columns 
 .row:after {
     content: "";
     display: table;
     clear: both;
-}
+}*/
 </style>
 </head>
 <body>
@@ -29,7 +29,7 @@
 <h2>Sign-in or Sign-up</h2>
 
 <div class="row">
-  <div class="column" style="background-color:#ccc">
+  <div class="column" style="background-color: blue">
     <h2>Sign-in</h2>
     
     <form action="action_page.php">
@@ -47,18 +47,18 @@
             <input type="checkbox" checked="checked" name="remember"> Remember me
           </label>
         </div>
-      
-        <div class="container" style="background-color:#ccc;">
+        <span class="psw">Forgot <a href="#">password?</a></span>
+        <div class="container" style="background-color:blue;">
           
         
-          <span class="psw">Forgot <a href="#">password?</a></span>
+          
         </div>
       </form>
   </div>
-  <div class="column" style="background-color:#aaa;"> 
+  <div class="column" style="background-color:rgb(0, 255, 0);"> 
     <h2>Sign-up</h2>
 
-    <form action="action_page.php" style="border:1px solid black">
+    <form action="action_page.php" style="border:4px solid black">
         <div class="container">
           <h1>Joining Our Park Journey?</h1>
           <p>Please Complete This Form</p>
